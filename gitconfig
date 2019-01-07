@@ -16,3 +16,6 @@
     cm = commit -m
     co = checkout
     br = branch
+[user]
+	name = Joseph Moran
+	email = joe@absolutod.com
