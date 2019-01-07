@@ -9,8 +9,10 @@
     changed = red
     deleted = red
     untracked = yellow
-[user]
-    name =
-    email =
 [push]
     default = matching
+[alias]
+    st = status
+    cm = commit -m
+    co = checkout
+    br = branch
