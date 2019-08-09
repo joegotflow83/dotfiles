@@ -32,6 +32,7 @@ export HISTCONTROL=ignoredups
 shopt -s checkwinsize
 set -o noclobber
 export EDITOR=vim
+export PATH=$PATH:$HOME/bin
 
 #===============================================================================
 #  Aliases
@@ -45,5 +46,9 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ls='ls --color'
+alias c='clear'
+alias la='ls -a'
+alias ll='ls -l'
+alias lla='ls -al'
 # Empty the trash folder that is created when you delete things as root
 alias root_trash='sudo bash -c "exec rm -r /root/.local/share/Trash/{files,info}/*"'

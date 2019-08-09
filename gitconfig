@@ -16,6 +16,10 @@
     cm = commit -m
     co = checkout
     br = branch
+    scrub = '!f() { \
+        git filter-branch --force --index-filter \
+        "git rm --cached --ignore-unmatch $1" \
+        --prune-empty --tag-name-filter cat -- --all }; f'
 [user]
-	name = Joseph Moran
-	email = joe@absolutod.com
+    name = Joseph Moran
+    email = joseph.moran@infor.com
