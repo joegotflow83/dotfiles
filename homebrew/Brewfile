@@ -1,0 +1,33 @@
+# window management
+cask "spectacle"
+
+# shell tools
+cask "iterm2"
+brew "tmux"
+brew "zsh"
+brew "zsh-syntax-highlighting"
+
+# vim tools
+brew "vim"
+brew "aspell"
+brew "ctags"
+
+# search tools
+brew "the_silver_searcher"
+
+# Source Control Tools
+brew "gh"
+brew "tig"
+
+# keyboard tools
+cask "karabiner-elements"
+
+# databases
+cask "postgresql"
+
+# languages
+brew "node"
+brew "pyenv"
+brew "pyenv-virtualenv"
+brew "zlib" # needed for pyenv installing
+brew "sqlite"
